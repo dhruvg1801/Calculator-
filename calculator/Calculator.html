@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Calculator
+  </title>
+
+  <link rel = "stylesheet" href = "calculator.css">
+</head>
+  <body>
+  <div>
+    <div>
+      <input class="inputBox" type="text" readonly>
+    </div>
+    <div class="mainButtons">
+      <button onclick="addToInput()" class="blueButton">mc</button>
+      <button onclick="addToInput()" class="blueButton">m+</button>
+      <button onclick="addToInput()" class="blueButton">m-</button>
+      <button onclick="addToInput()" class="blueButton">mr</button>
+      <button onclick="clearInput()" class="blueButton">AC</button>
+      <button onclick="deleteLast()" class="blueButton">&#8592;</button >
+      <button onclick="addToInput()" class="blueButton">&plusmn;</button>
+      <button onclick="addToInput('/')" class="blueButton">&#247;</button>
+      <button onclick="addToInput(7)" class="whiteButton">7</button>
+      <button onclick="addToInput(8)" class="whiteButton">8</button>
+      <button onclick="addToInput(9)" class="whiteButton">9</button>
+      <button onclick="addToInput('*')" class="blueButton">&#215;</button> 
+      <button onclick="addToInput(4)" class="whiteButton">4</button>
+      <button onclick="addToInput(5)" class="whiteButton">5</button>
+      <button onclick="addToInput(6)" class="whiteButton">6</button>
+      <button onclick="addToInput('-')" class="blueButton">-</button>
+      <button onclick="addToInput(1)" class="whiteButton">1</button>
+      <button onclick="addToInput(2)" class="whiteButton">2</button>
+      <button onclick="addToInput(3)" class="whiteButton">3</button>
+      <button onclick="addToInput('+')" class="blueButton">+</button>
+      <button onclick="addToInput('%')" class="whiteButton">%</button>
+      <button onclick="addToInput(0)" class="whiteButton">0</button>
+      <button onclick="addToInput('.')" class="whiteButton">.</button>
+      <button onclick="calculate()" class ="equalsButton">=</button>                      
+    </div>
+
+  </div>
+  <script src="calculator.js"></script> 
+  </body>
+</html> 
